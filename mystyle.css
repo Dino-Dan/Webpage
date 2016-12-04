@@ -1,0 +1,53 @@
+header {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+/*  Remove the overflow and padding so the menu doesn't scroll and starts from the right */
+nav ul {
+	overflow: hidden;
+	padding: 0;
+
+}
+
+/*  Start the list from the left and remove the dots */
+nav li {
+	float:left;
+	list-style-type: none;
+}
+
+/*  Make all the text inline
+	Edits to make the font look better
+ */
+nav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.7s;
+	font-size: 17px;
+	font-family: "Arial";
+
+}
+
+nav li a:hover{background-color: #555;}
+
+#main_title {
+	font-size: 50px;
+	font-family: "Arial";
+	margin-left: 5%;
+	padding: 0;
+}
+
+body{
+	background-color: #70757c;
+
+}
+
+#mypic {
+ float:left;
+	height: auto;
+	width: 128px;
+	margin: 10px;
+	border: 3px solid;
+}
